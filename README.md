@@ -1,4 +1,8 @@
 # DELIVERY APP REACT
+Proyecto para el examen final del curso Desarrollo de Interfaces 2.
+
+El proyecto consiste en el front-end de una app de delivery utilizando React.
+
 ## Instalación
 
 Utiliza la versionde [Node.js](https://nodejs.org/) mayor a la v22
@@ -16,5 +20,3 @@ npm run dev
 
 | Feature | Fecha creacion | Creado poy |
 |---------|----------------|------------|
-| Login | 16/10/2025 | Jhefferson|
-| Registro | 17/10/2025 | Jhefferson|
