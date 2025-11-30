@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 
+=======
+>>>>>>> 18fb091b9b9478649c9c141dc496cf59ba7e4b05
 import { HeaderHome } from "../components/home/Header";
 import { ProfitHome } from "../components/home/Profit";
 import { RecordHome } from "../components/home/Record";
 import { OdersHome } from "../components/home/Oders";
+<<<<<<< HEAD
 import { HistorialHome } from "../components/home/Historial";
 import { OrdersAvailableHome } from "../components/home/OrdersAvailable";
 
@@ -47,6 +51,18 @@ export const Home = () => {
       )}
 
       {isVisibleHistorial ? <HistorialHome /> : <OdersHome />}
+=======
+
+import "../styles/Home.css";
+
+export const Home = () => {
+  return (
+    <div>
+      <HeaderHome />
+      <ProfitHome />
+      <RecordHome />
+      <OdersHome />
+>>>>>>> 18fb091b9b9478649c9c141dc496cf59ba7e4b05
     </div>
   );
 };

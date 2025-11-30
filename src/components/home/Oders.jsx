@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from "react";
 import { Order } from "./oders/Order";
 
@@ -38,3 +39,23 @@ export const OdersHome = () => {
     </section>
   );
 };
+=======
+import { Order } from './oders/Order'
+
+export const OdersHome = () => {
+   return (
+    <section className="card order-home">
+        <div className='order-home-title'>
+            <span>PEDIDOS DISPONIBLES</span>
+        </div>
+        <Order/>
+        <Order/>
+        <Order/>
+        <Order/>
+        <Order/>
+        <Order/>
+        <Order/>
+    </section>
+   ) 
+}
+>>>>>>> 18fb091b9b9478649c9c141dc496cf59ba7e4b05
