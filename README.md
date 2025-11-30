@@ -18,5 +18,5 @@ npm run dev
 
 ## Features
 
-| Feature | Fecha creacion | Creado poy |s
+| Feature | Fecha creacion | Creado poy |
 |---------|----------------|------------|
